@@ -39,7 +39,7 @@ bool checker1(int num)
 
 bool checker2(int num1, int num2)
 {
-	bool check = ((num2 > 1 && num1 > 9) || abs(num1) > 1000) ? false : true;
+	bool check = ((num2 > 1 && abs(num1) > 9) || abs(num1) > 1000) ? false : true;
 	return check;
 }
 
